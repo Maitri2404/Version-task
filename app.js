@@ -10,7 +10,7 @@ app.get('/getUsers', handleGetUsers);
 app.put('/updateUser/:username', handleUpdateUser);
 app.put('/updatePassword/:username', handleUpdatePassword);
 
-
+console.log('test')
 app.listen(process.env.PORT, () => {
     console.log('Server is running on port 3000');
 });
